@@ -306,7 +306,8 @@ header {
         header .header-top .social-link li a {
           color: #FFF !important; }
   header .header-bottom .logo img {
-    margin-top: 34px; }
+    margin-top: 2px;
+     }
     @media screen and (max-width: 767px) {
       header .header-bottom .logo img {
         max-width: 250px;
