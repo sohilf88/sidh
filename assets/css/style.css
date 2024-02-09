@@ -112,7 +112,8 @@ strong {
 body {
   background-color: #ffffff !important;
   font-family: "Glacial Indifference", "Open Sans", sans-serif;
-  color: #6A6A6A; }
+  color: #6A6A6A;
+overflow-x: hidden !important;}
 
 .session-title {
   padding: 30px;
@@ -383,7 +384,9 @@ header {
         font-size: 32px; } }
   @media screen and (max-width: 572px) {
     .slider-captions {
-      display: none; } }
+      display: none; } 
+        
+    }
 
 .slider-title {
   font-size: 66px;
@@ -698,3 +701,50 @@ footer {
       margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  /* background-color: #f26522;  */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; 
+   /* Rounded corners */
+  font-size: 20px;
+  font-weight: bold;/*Increase font size*/
+  border-radius:100%;
+  border-color:#f26522;
+  /* offset: 0.3; */
+}
+
+#myBtn:hover {
+  background-color: #f8b739; 
+  color: #000;/* Add a dark-grey background on hover */
+}
+
+.icon-top{
+  width:60px;
+  height:60px;
+  background-color:transparent;
+   
+   /* Rounded corners */
+  font-size: 18px;
+}
+
+@media screen and (max-width: 550px) {
+  .row .ccv b{
+    font-size:1.5rem;
+    
+    
+  }
+  .row.ccv p{
+    font-size:0.8rem;
+    
+    
+  }
+  
+}
