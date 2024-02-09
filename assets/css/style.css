@@ -7,6 +7,11 @@ coder name:Prabin Raja
 Description: This Template is created for web template
 ======================================================================= */
 /* ===================================== Import Less ================================== */
+
+
+
+
+
 html { scroll-behavior: smooth; }
 :root {
   --color-font: #808291;
@@ -243,10 +248,11 @@ overflow-x: hidden !important;}
     border-color: #CCC; }
 
 .container {
-  max-width: 1300px; }
+  max-width: 1366px; }
+
   @media screen and (max-width: 575px) {
     .container {
-      padding: 10px 15px; } }
+      } }
 
 .btn-success {
   background-color: #107d6a;
@@ -747,4 +753,31 @@ footer {
     
   }
   
+}
+.manoj {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:2rem;
+  color:#f26522
+}
+
+@media screen and (max-width: 1100px){
+  .manoj {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.5rem;
+  color:#f26522
+}
+}
+
+@media screen and (max-width: 1000px){
+  .manoj {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.2rem;
+  color:#f26522
+}
 }
