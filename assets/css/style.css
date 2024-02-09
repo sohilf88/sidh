@@ -243,7 +243,7 @@ overflow-x: hidden !important;}
     border-color: #CCC; }
 
 .container {
-  max-width: 1280px; }
+  max-width: 1300px; }
   @media screen and (max-width: 575px) {
     .container {
       padding: 10px 15px; } }
